@@ -3,6 +3,9 @@
 var list = create();
 var MAX_ELEM_LIST = 6;
 
+/**
+ * Funcionalidades nuevas
+ */
 /*FUNCIONES*/
 function create() {
     var list = [];
