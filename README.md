@@ -15,3 +15,6 @@ Version 1.1.1
 Funcionalidad listas sin ordenar con metodos propios: HECHO
 Version 1.1.2
 Funcionalidad listas ordenadas con metodos propios: HECHO
+
+Version 1.2.0
+Finalizado
