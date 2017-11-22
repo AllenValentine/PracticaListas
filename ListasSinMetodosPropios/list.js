@@ -62,7 +62,7 @@ function indexNumber(num){
       if(index(LIST, num) === -1){
          listWi.innerHTML = "El numero " + num + " no esta e la lista " +toString(LIST);
       }else{
-         listWi.innerHTML = "El numero " + num + " esta en la lista " + toString(LIST);
+         listWi.innerHTML = "El numero " + num + " esta en la lista " + index(LIST, num);
       }
    } catch (err) {
       error.innerHTML = err;
@@ -85,7 +85,7 @@ function removeElementNumber(num){
    var error = document.getElementById("error");
    error.innerHTML = "";
    try {
-      if(remove(LIST, num)){
+      if(removeElem(LIST, num)){
          listWi.innerHTML = "El elemento " + num + " ha sido eliminado";
       }else{
          listWi.innerHTML = "El elemento " + num + " no esta en la lista";
@@ -328,7 +328,7 @@ function testList() {
       console.log(err);
    }
 }
-window.onload = testList;
+
 
 
 

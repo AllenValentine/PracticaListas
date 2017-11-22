@@ -6,7 +6,24 @@
 </head>
 <body>
 <h1>Implementación de una lista</h1>
-Mirar consola <br/>
+
+<input type="text" id="num" value="" placeholder="Numero"/>
+<input type="text" id="pos" value="" placeholder="Posicion"/><br>
+<button id="addButton" onclick="addNumber (document.getElementById ('num').value);">Añade número</button>
+<button id="removeButton" onclick="removeNumber (document.getElementById ('pos').value);">Eliminar de posicion</button>
+<button id="removeElementButton" onclick="removeElementNumber (document.getElementById ('num').value);">Eliminar Numero</button>
+<button id="getNumberButton" onclick="getNumber (document.getElementById ('pos').value);">Obtener Posicion</button>
+<button id="indexNumberButton" onclick="indexNumber (document.getElementById ('num').value);">Posicion Numero</button>
+
+<br>
+<button id="toString" onclick="toStringNumber ();">Mostrar Lista</button>
+<button id="test" onclick="testList();">Ejemplo Consola</button>
+
+<p id="error" style="color:red"></p>
+<div id="list">
+</div>
+
+
 <script src="listOrden.js"></script>
 </body>
 </html>

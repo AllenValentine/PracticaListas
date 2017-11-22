@@ -5,3 +5,5 @@ Version 1.0.0
 A implementar: funcionalidades botones.
 Version 1.0.1
 Funcionalidad listas sin ordenar: HECHO
+version 1.0.2
+funcionalidad listas ordenadas: HECHO 
