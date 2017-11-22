@@ -8,5 +8,8 @@ Funcionalidad listas sin ordenar: HECHO
 version 1.0.2
 funcionalidad listas ordenadas: HECHO 
 
-version 1.1.0
+Version 1.1.0
 subida con modificaciones al master
+
+Version 1.1.1
+Funcionalidad listas sin ordenar con metodos propios: HECHO
